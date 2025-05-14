@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\hopit\Desktop\study files\c++d\cpp_hw\task 1\User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hopit\Desktop\study files\c++d\cpp_hw\task 1\task_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hopit\Desktop\study files\c++d\cpp_hw\task 1\Group.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hopit\Desktop\study files\c++d\cpp_hw\task 1\Observer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\hopit\Desktop\study files\c++d\cpp_hw\task 1\User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hopit\Desktop\study files\c++d\cpp_hw\task 1\Group.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\hopit\Desktop\study files\c++d\cpp_hw\task 1\Observer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hopit\Desktop\study files\c++d\cpp_hw\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{41FA80C9-FA3A-3C0B-902A-20BD97D93B4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D147CD8A-99E5-36AB-92A5-EA959FAEC3DF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

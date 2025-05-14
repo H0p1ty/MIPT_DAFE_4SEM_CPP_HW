@@ -1,0 +1,10 @@
+^C:\USERS\HOPIT\DESKTOP\STUDY FILES\C++D\CPP_HW\CMAKELISTS.TXT
+setlocal
+C:\cmake-3.27.6-windows-x86_64\bin\cmake.exe "-SC:/Users/hopit/Desktop/study files/c++d/cpp_hw" "-BC:/Users/hopit/Desktop/study files/c++d/cpp_hw/build" --check-stamp-file "C:/Users/hopit/Desktop/study files/c++d/cpp_hw/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

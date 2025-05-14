@@ -1,0 +1,7 @@
+C:/Users/hopit/Desktop/study files/c++d/cpp_hw/build/CMakeFiles/task_1.dir
+C:/Users/hopit/Desktop/study files/c++d/cpp_hw/build/CMakeFiles/task_2.dir
+C:/Users/hopit/Desktop/study files/c++d/cpp_hw/build/CMakeFiles/task_3.dir
+C:/Users/hopit/Desktop/study files/c++d/cpp_hw/build/CMakeFiles/task_4.dir
+C:/Users/hopit/Desktop/study files/c++d/cpp_hw/build/CMakeFiles/task_5.dir
+C:/Users/hopit/Desktop/study files/c++d/cpp_hw/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/hopit/Desktop/study files/c++d/cpp_hw/build/CMakeFiles/ZERO_CHECK.dir

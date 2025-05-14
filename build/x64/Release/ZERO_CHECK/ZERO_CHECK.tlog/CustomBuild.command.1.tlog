@@ -1,0 +1,10 @@
+^C:\USERS\HOPIT\DESKTOP\STUDY FILES\C++D\CPP_HW\BUILD\CMAKEFILES\05F4B8F198DFC753CF9B6216635CC408\GENERATE.STAMP.RULE
+setlocal
+C:\cmake-3.27.6-windows-x86_64\bin\cmake.exe "-SC:/Users/hopit/Desktop/study files/c++d/cpp_hw" "-BC:/Users/hopit/Desktop/study files/c++d/cpp_hw/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/hopit/Desktop/study files/c++d/cpp_hw/build/cpp_hw.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
