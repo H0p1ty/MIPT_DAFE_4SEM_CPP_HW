@@ -18,11 +18,6 @@ public:
     User() = default;
     ~User() = default;
     User(const std::string& name_, const unsigned int id_) : name(name_), id(id_) {}
-    User& operator=(const User& other);
-    User(const User& other);
-
-    Group* GetGroupPtr() const;
-    Group& GetGroupLink() const;
     unsigned int GetId() const {return id;}
 
     std::string name{};

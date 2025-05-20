@@ -21,7 +21,6 @@ void Group::AddUser(std::shared_ptr<User> &user_ptr) {
         throw std::logic_error("User already exists");
     }
     users_by_id_[user_ptr->GetId()] = user_ptr;
-    //std::cout << user_ptr.use_count() << std::endl;
 }
 
 void Group::RemoveUser(unsigned int id) {
@@ -53,7 +52,4 @@ void Group::MoveUsersToOtherGroup(Group &other) {
     for (auto iter = users_by_id_.begin(); iter != users_by_id_.end(); ++iter) {
         other.AddUser(iter->second);
     }
-    // for (auto iter = users_by_id_.begin(); iter != users_by_id_.end(); ++iter) {
-    //     RemoveUser(iter->first);
-    // }
 }
