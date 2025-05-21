@@ -23,7 +23,6 @@ public:
     std::string name{};
 private:
     unsigned int id{};
-    Group* group_ptr_ = nullptr;
 };
 
 
